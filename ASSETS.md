@@ -1,0 +1,10 @@
+# Third-party assets
+
+| Asset | Source | Licence | Where used |
+|---|---|---|---|
+| Kenney Space Station Kit | [kenney.nl](https://kenney.nl) | CC0 1.0 — `Assets/ThirdParty/Kenney/SpaceStationKit/License.txt` | 9 FBX models — `container`, `container-tall`, `container-wide`, `computer-screen`, `computer-system`, `floor`, `pipe-bend`, `table-inset-small`, `wall` — plus `Models/FBX format/Textures/colormap.png`, applied via `Assets/Project/Materials/Kenney/Kenney_Colormap.mat`, used as set-dressing props and the floor/wall base geometry in `01_OrbitalStation.unity`. The rest of the kit (unused models, previews, and alternate GLB/OBJ format exports) was removed as unused during the public-snapshot cleanup. |
+| Meta XR SDK 207.0.1: Core (`com.meta.xr.sdk.core`), Interaction SDK (`com.meta.xr.sdk.interaction.ovr`) and Interaction SDK Essentials (`com.meta.xr.sdk.interaction`, installed as a dependency) | [Meta Quest Developer Center](https://developers.meta.com) | Meta's own SDK licence (see the licence in the package itself or at developers.meta.com). Not included in this repo; installed through the Package Manager (see `Packages/manifest.json`). | XR input, hand/controller interaction, OpenXR runtime integration throughout `Assets/Project` and `Assets/Oculus`. |
+| TextMesh Pro | Bundled with Unity | Unity Companion Licence. Includes the Liberation Sans font (SIL Open Font License 1.1, see `Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt`) and EmojiOne sprites (see `Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt`). | All in-game text rendering (`Assets/TextMesh Pro/`). |
+| Unity Input System, URP, OpenXR Plugin, Test Framework, and other `com.unity.*` packages | Unity Technologies | Unity Companion Licence / Unity package licence | Core engine functionality — see `Packages/manifest.json`. |
+
+All other content (scripts, scenes, prefabs, ScriptableObjects) is original work covered by this project's [LICENSE](LICENSE). The sound effects in `Assets/Project/Audio` were generated programmatically for this project; no third-party audio is used.

@@ -107,3 +107,24 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Builds / signing
+*.keystore
+
+# Performance test run output
+PerformanceTestRunInfo.json
+PerformanceTestRunSettings.json
+/[Aa]ssets/Resources/PerformanceTest*
+
+# Crash-recovery / scratch scenes (not part of the shipped game)
+/[Aa]ssets/_Recovery/
+
+# Meta Immersive Debugger local dev-agent settings (contains a local pairing token)
+/[Aa]ssets/Resources/DevAgentSettings.asset*
+
+# Local tool/editor config - machine-specific, not part of the project
+/.mcp.json
+/.vscode/mcp.json
+/.claude/
+.vscode/
+CLAUDE.md

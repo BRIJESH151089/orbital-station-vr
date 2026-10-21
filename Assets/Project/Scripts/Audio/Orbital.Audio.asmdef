@@ -1,0 +1,17 @@
+{
+    "name": "Orbital.Audio",
+    "rootNamespace": "Orbital.Audio",
+    "references": [
+        "Orbital.Core",
+        "Orbital.Activities"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
